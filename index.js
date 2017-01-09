@@ -7,8 +7,8 @@ var fs = require('fs')
     ,domain=require('domain')
     ,_controls={};
 
-var EasyNote=require('../easy-note');
-var EasyCheck=require('../easy-check');
+var EasyNote=require('easy-note');
+var EasyCheck=require('easy-check');
 
 function route_action(dir,file){
     file = file.replace('.js', '').toLowerCase();
