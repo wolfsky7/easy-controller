@@ -1,0 +1,60 @@
+{
+  "_from": "easycontroller@*",
+  "_inCache": true,
+  "_location": "/easycontroller",
+  "_nodeVersion": "5.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/easycontroller-1.0.0.tgz_1460082527740_0.993021750357002"
+  },
+  "_npmUser": {
+    "email": "wolfsky7@163.com",
+    "name": "wolfsky7"
+  },
+  "_npmVersion": "3.3.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "easycontroller",
+    "raw": "easycontroller",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_shasum": "dbab4d99322aad704ec3c9b59fbd51f443c1bbc1",
+  "_shrinkwrap": null,
+  "_spec": "easycontroller",
+  "_where": "E:\\project\\work\\Sends\\sdj\\sdj",
+  "author": "wolfsky7",
+  "dependencies": {},
+  "description": "1.0.1",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "dbab4d99322aad704ec3c9b59fbd51f443c1bbc1",
+    "tarball": "https://registry.npmjs.org/easycontroller/-/easycontroller-1.0.0.tgz"
+  },
+  "installable": true,
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    "wolfsky7 <wolfsky7@163.com>"
+  ],
+  "name": "easy-controller",
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfsky7/easy-controller.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wolfsky7/easy-controller/issues"
+  },
+  "homepage": "https://github.com/wolfsky7/easy-controller#readme"
+}
