@@ -12,17 +12,6 @@ function BaseController(){
         this.controllerName=controller;
         // console.log("ca init ");
     }
-    this.baseRender=function(){
-        this.currentState='end';
-        var r=arguments[0],o=arguments[1];
-
-        o=(typeof r=="string")?o:r;
-        r=(typeof r=="string")?r:this.controllerName+"/"+this.currentionAction;
-
-        this.res.render(r,o);
-    }
-
-
 
     this.actionEnd=function(){
 
@@ -59,6 +48,28 @@ BaseController.prototype.baseErr=function(msg,code){
     var opts={state:code||1,msg:typeof msg=="object"?msg.message:msg};
     return  this.res.json(opts);
 }
+
+BaseController.prototype.callParent=function(){
+    this.currentState='end';
+    var r=arguments[0],o=arguments[1];
+
+    o=(typeof r=="string")?o:r;
+    r=(typeof r=="string")?r:this.controllerName+"/"+this.currentionAction;
+
+    this.res.render(r,o);
+}
+
+BaseController.prototype.baseRender=function(){
+    this.currentState='end';
+    var r=arguments[0],o=arguments[1];
+
+    o=(typeof r=="string")?o:r;
+    r=(typeof r=="string")?r:this.controllerName+"/"+this.currentionAction;
+
+    this.res.render(r,o);
+}
+
+BaseController.prototype.parent=BaseController;
 
 module.exports=BaseController;
 

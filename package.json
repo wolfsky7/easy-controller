@@ -29,7 +29,11 @@
   "_spec": "easycontroller",
   "_where": "E:\\project\\work\\Sends\\sdj\\sdj",
   "author": "wolfsky7",
-  "dependencies": {},
+  "dependencies": {
+    "co": "^4.6.0",
+    "easy-check": "^1.0.1",
+    "easy-note": "^1.0.2"
+  },
   "description": "1.0.1",
   "devDependencies": {},
   "directories": {},
@@ -48,7 +52,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.1",
+  "version": "1.0.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wolfsky7/easy-controller.git"
@@ -56,5 +60,8 @@
   "bugs": {
     "url": "https://github.com/wolfsky7/easy-controller/issues"
   },
-  "homepage": "https://github.com/wolfsky7/easy-controller#readme"
+  "homepage": "https://github.com/wolfsky7/easy-controller#readme",
+  "keywords": [
+    "easy-controller"
+  ]
 }
